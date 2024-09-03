@@ -1,0 +1,62 @@
+* {
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/dae1f45f-c2c5-4a62-8d58-6e1b0c6b2d8e/cbd12d04-a876-4321-a296-9a0f4259d9bc/BR-pt-20240827-TRIFECTA-perspective_WEB_f55d5382-5181-4fdb-82f7-fcd044fd83d9_small.jpg);
+  background-size: cover;
+  background-position: top center;
+}
+
+#logo {
+  font-size: x-large;
+  padding: 20px;
+  padding-inline: 10px;
+  background-color: rgba(0, 0, 0, 0.521);
+}
+
+.netflix {
+  color: rgb(201, 0, 0);
+  font-family: sans-serif;
+  padding: 30px 30px;
+  font-size: 30px;
+}
+
+#login {
+ font-size: 10px;
+ float: right;
+ font-family: sans-serif;
+ border-radius: 8px;
+ padding: 10px 10px;
+ background-color: rgba(255, 0, 0, 0.548);
+}
+
+a {
+text-decoration: none;
+color: white
+}
+
+#pesquisa {
+  font-size: 10px;
+  margin-top: 50px;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  width: 300px;
+  height: 30px;
+  margin-inline: auto;
+  background-color: rgba(0, 0, 0, 0.512);
+  border-radius: 8px;
+  font-family: sans-serif;
+}
+
+#rodape {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.671);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+}
