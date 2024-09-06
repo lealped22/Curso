@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário</title>
+
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      background: rgb(41,32,246);background: radial-gradient(circle, rgba(41,32,246,1) 0%, rgba(144,0,255,1) 100%);
+      color: aliceblue;
+      text-align: center;
+      text-justify: justify;
+    }
+
+    label {
+      cursor: pointer;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <form action="#" method="get" target="_blank" autocomplete="off">
+
+    <p>Formulário Dev -</p><br>
+    
+    <p>
+      <label for="nome">Nome:</label>
+
+      <input type="text" id="nome" placeholder="seu nome">
+    </p><br>
+
+    <p>
+    Dev: <br>
+    <label for="Back">Back-end:</label>
+    <input type="checkbox" id="Back" name="Back" value="Back"><br>
+    
+    <label for="Front">Front-end:</label>
+    <input type="checkbox" id="Front" name="Front" value="Front"><br>
+    
+    <label for="Design">Designer:</label>
+    <input type="checkbox" id="Design" name="Design" value="Design">
+    </p><br>
+
+    <p> 
+     Gênero: <br>
+      <label for="Masculino">Masculino:</label>
+      <input type="radio" id="Masculino" name="genero" value="Masculino"><br>
+
+      <label for="Feminino">Feminino:</label>
+      <input type="radio" id="Feminino" name="genero" value="Feminino"><br>
+
+      <label for="Outro">Outro:</label>
+      <input type="radio" id="Outro" name="genero" value="Outro">
+    </p>
+
+    <p>
+      <label for="Data">Data:</label>
+    
+      <input type="date" id="Data" name="date">
+    </p>
+
+    <p>
+      <button type="reset">Reset</button>
+      <button type="submit">enviar</button>
+    </p>
+
+  </form>
+</body>
+</html>

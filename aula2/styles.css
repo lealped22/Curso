@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+  background: #005eff;
+  }
+
+.grid {
+  padding: 15px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 58px;
+}
+
+.grid::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+body section div h1 {
+  font-size: 50px;
+  color: #4a0861;
+}
+
+.nome {
+  position: relative;
+  padding-top: 70px;
+  text-align: center;
+  color: white;
+  text-shadow: -1px 2px  rgb(0, 15, 74);
+}
+
+.grid .col {
+  width: 33.33%;
+  height: 300px;
+  float: left;
+  padding: 15px;
+}
+
+.grid .col-content {
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 94, 255);
+  background: linear-gradient(39deg, #005eff 40%, #22c1c3 90%);
+  border-radius: 10%;
+  box-shadow: -5px 5px 0 0 #22c1c3;
+}
+
+.menu {
+  position: absolute;
+  width: 100%;
+  position: fixed;
+  background: rgb(141, 0, 197);
+  border-radius: 0  0 80% 0;
+  z-index: 1;
+}
+
+.menu ul {
+  list-style: none;
+  display: block;
+  padding: 0 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.menu ul li {
+  float: left;  
+}
+
+.menu ul li a {
+  display: block;
+  color: rgb(219, 226, 241);
+  padding: 20px;
+  text-decoration: none;
+  transition: all 300ms ease-in-out;  
+}
+
+.menu ul li a:hover {
+  background: #333;
+}
+
+.full-page {
+  padding: 30px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding-top: 150px;
+  height: 100vh;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(0deg, rgba(34, 193, 195, 1) 76%, rgba(0, 94, 255, 1) 100%);
+}
+
+.full-page-content {
+  max-width: 1200px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
+@media all and (max-width: 568px) {
+  .grid .col {
+    width: 100%;
+  }
+}
+
+@media all and (min-width: 569px) and (max-width: 768px) {
+  .grid .col {
+    width: 50%;
+  }
+}
+
+@media all and (min-width: 769px) and (max-width: 1200px) {
+  .grid .col {
+    width: 33,33%;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .grid .col {
+    width: 25%;
+  }
+}

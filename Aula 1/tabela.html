@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tabela</title>
+
+  <style>
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    table td, table th {
+      border: 1px solid #ccc;
+      padding: 5px;
+      text-align: center;
+    }
+
+    body {
+      font-family: monospace;
+    }
+
+    table caption{
+      caption-side: top;
+      text-align: left;
+      font-size: 14px;
+      font-style: italic;
+      margin: 10px;
+    }
+
+    tfoot td, table th {
+      background: salmon;
+    }
+
+    tfoot td {
+      text-align: right;
+      font-size: 15px;
+    }
+
+  </style>
+
+</head>
+<body>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+  <table>
+    <caption>Nomezin</caption>
+    <thead>
+      <tr>
+        <th>Título 1</th>
+        <th>Título 2</th>
+        <th>Título 3</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td>Corpo 1</td>
+        <td>Corpo 2</td>
+        <td>Corpo 3</td>
+      </tr>
+      <tr>
+        <td>Corpo 1</td>
+        <td>Corpo 2</td>
+        <td>Corpo 3</td>
+      </tr>
+      <tr>
+        <td>Corpo 1</td>
+        <td>Corpo 2</td>
+        <td>Corpo 3</td>
+      </tr>
+
+    </tbody>
+
+    <tfoot>
+      <tr>
+        <td colspan="3">valor:</td>
+      </tr>
+      <tr>
+        <td colspan="3">R$ 564,49</td>
+      </tr>
+    </tfoot>
+
+  </table>
+</body>
+</html>
