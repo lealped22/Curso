@@ -52,7 +52,7 @@ body section div h1 {
   background: rgb(0, 94, 255);
   background: linear-gradient(39deg, #005eff 40%, #22c1c3 90%);
   border-radius: 10%;
-  box-shadow: -5px 5px 0 0 #22c1c3;
+  box-shadow: inset 5px -5px 0 0 #22c1c3, 1px -1px 0 0 #333
 }
 
 .menu {
