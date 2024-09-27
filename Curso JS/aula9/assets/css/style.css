@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+:root {
+  --primary-color: #25766b;
+  --primary-color-darker: #17655b;
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: white;
+  padding: 20px 20px;
+  border-radius: 10px;
+
+}
+
+h1 {
+  display: flex;
+  font-size: 50PX;
+  justify-content: center;
+}
+
+.textin p {
+  font-size: 16px;
+  margin: 1px;
+}
+
+.textin {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.coisinhas {
+  display: flex;
+  flex-direction: column;
+}
+
+.escrever {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+
+.coisinhas button {
+  background-color: var(--primary-color);
+  margin: 10px 0;
+  padding: 10px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: var(--primary-color-darker);
+  cursor: pointer;
+}
+
+.escrever label {
+  margin: 7px;
+}
+
+.escrever input {
+  padding: 7px;
+}
+
+.p-soma, .bad {
+  background: #72ffcb;
+  padding: 10px 20px;
+}
+
+.errado {
+  background: #ff8a8a;
+  padding: 10px 20px;
+}
